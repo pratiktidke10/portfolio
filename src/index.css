@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.nav-link { position: relative; }
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 0%; height: 3px;
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+}
+.nav-link:hover::after { width: 100%; }
+
+.animate-hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.delay-100 { transition-delay: 0.1s; }
+.delay-200 { transition-delay: 0.2s; }
+.delay-300 { transition-delay: 0.3s; }
+.delay-400 { transition-delay: 0.4s; }
+.delay-500 { transition-delay: 0.5s; }
+
+.dark body {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.dark .text-gray-900 { color: #f9fafb; }
+.dark .text-gray-600 { color: #d1d5db; }
+.dark .text-gray-500 { color: #9ca3af; }
+.dark .bg-white { background-color: #1f2937; }
+.dark .border-gray-200 { border-color: #374151; }
+.dark .bg-gray-100 { background-color: #374151; }
+.dark .text-gray-700 { color: #e5e7eb; }
+
+html{
+  scroll-behavior: smooth;
+}
