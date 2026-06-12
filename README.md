@@ -3,13 +3,13 @@ A modern, responsive personal portfolio website built with React and Tailwind CS
 
 📸 Screenshot
 
-Technology
-React - 18UI library,
-Vite - Build tool,
-Tailwind - CSSStyling,
-EmailJS - Contact form emails,
-react-type - animation Typing animation in Hero,
-Intersection Observer - APIScroll animations
+## Technology
+- React - 18UI library,
+- Vite - Build tool,
+- Tailwind - CSSStyling,
+- EmailJS - Contact form emails,
+- react-type - animation Typing animation in Hero,
+- Intersection Observer - APIScroll animations
 
 📬 Contact
 Pratik Tidke
