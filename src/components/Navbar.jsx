@@ -20,9 +20,14 @@ function Navbar({ isDark, toggleDark }) {
       <div className="mx-auto py-5 flex flex-row items-center justify-between">
 
         {/* Logo */}
-        <a id="nav-icon" className="flex title-font font-medium items-center text-gray-900 dark:text-white">
-          <span className="ml-3 text-xl sm:text-3xl font-black">PT</span>
-        </a>
+          <a id="nav-icon" className="flex title-font font-medium items-center">
+            <span className="ml-3 text-xl sm:text-3xl font-black font-mono">
+              <span className="text-indigo-400">&lt;</span>
+              <span className="text-gray-900 dark:text-white">P</span>
+              <span className="text-indigo-500">T</span>
+              <span className="text-indigo-400">/&gt;</span>
+            </span>
+          </a>
 
         <div className="relative flex flex-row-reverse lg:flex-row items-center self-end">
 
